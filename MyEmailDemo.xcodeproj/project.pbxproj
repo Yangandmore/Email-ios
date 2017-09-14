@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F18D41F1F5E7F27007D94BE /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F18D41E1F5E7F27007D94BE /* LoginController.m */; };
 		2FF1E2FA1F5D2424003625B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1E2F91F5D2424003625B2 /* main.m */; };
 		2FF1E2FD1F5D2424003625B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1E2FC1F5D2424003625B2 /* AppDelegate.m */; };
 		2FF1E3001F5D2424003625B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1E2FF1F5D2424003625B2 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F18D41D1F5E7F27007D94BE /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		2F18D41E1F5E7F27007D94BE /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
 		2FF1E2F51F5D2424003625B2 /* MyEmailDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyEmailDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FF1E2F91F5D2424003625B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2FF1E2FB1F5D2424003625B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F18D4171F5E77FA007D94BE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2F18D41C1F5E7EA4007D94BE /* Login */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2F18D41C1F5E7EA4007D94BE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2F18D41D1F5E7F27007D94BE /* LoginController.h */,
+				2F18D41E1F5E7F27007D94BE /* LoginController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
 		2FF1E2EC1F5D2424003625B2 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +121,7 @@
 		2FF1E2F71F5D2424003625B2 /* MyEmailDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2F18D4171F5E77FA007D94BE /* Controllers */,
 				2FF1E2FB1F5D2424003625B2 /* AppDelegate.h */,
 				2FF1E2FC1F5D2424003625B2 /* AppDelegate.m */,
 				2FF1E2FE1F5D2424003625B2 /* ViewController.h */,
@@ -277,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FF1E3001F5D2424003625B2 /* ViewController.m in Sources */,
+				2F18D41F1F5E7F27007D94BE /* LoginController.m in Sources */,
 				2FF1E2FD1F5D2424003625B2 /* AppDelegate.m in Sources */,
 				2FF1E2FA1F5D2424003625B2 /* main.m in Sources */,
 			);
@@ -516,6 +538,7 @@
 				2FF1E3241F5D2425003625B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FF1E3251F5D2425003625B2 /* Build configuration list for PBXNativeTarget "MyEmailDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +547,7 @@
 				2FF1E3271F5D2425003625B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FF1E3281F5D2425003625B2 /* Build configuration list for PBXNativeTarget "MyEmailDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +556,7 @@
 				2FF1E32A1F5D2425003625B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
